@@ -1,7 +1,7 @@
 package com.bitcamp.domains;
 
 public class MemberBean {
-	private String name, id, pas, birth, bld;
+	private String name, id, pas, pas2, birth, bld;
 	private double hei, wei;
 	
 
@@ -22,7 +22,7 @@ public class MemberBean {
 	public void setPas(String pas) {
 		this.pas = pas;
 	}
-	public String GetPas() {
+	public String getPas() {
 		return this.pas;
 	}
 	public void setBirth(String birth) {
@@ -49,6 +49,7 @@ public class MemberBean {
 	public double getWei() {
 		return this.wei;
 	}
+	public void setPas2() {}
 	@Override
 	public String toString() {
 		// 이름, 아이디, 비밀번호, 주민번호, 혈액형, 키 , 몸무게
